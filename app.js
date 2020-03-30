@@ -1,13 +1,13 @@
-function add(n1, n2, showResult, phrase) {
-    if (showResult) {
-        console.log(phrase + n1 + n2);
-    }
-    else {
-        return n1 + n2;
-    }
+var userInput;
+var userName;
+// we dont know yet what the user will enter is a time when we may use unknown
+// userInput = 5;
+// userInput = 'string';
+if (typeof userInput === 'string') {
+    userName = userInput;
 }
-var number1 = 1;
-var number2 = 2.8;
-var printResult = true;
-var resultPhrase = 'result is: ';
-add(number1, number2, printResult, resultPhrase);
+function generateError(message, code) {
+    throw { message: message, errorCode: ConstantSourceNode };
+}
+var result = generateError('errrrr', 500);
+console.log(result);
