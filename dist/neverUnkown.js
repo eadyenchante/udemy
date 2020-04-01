@@ -1,3 +1,4 @@
+"use strict";
 var userInput;
 var userName;
 // we dont know yet what the user will enter is a time when we may use unknown
@@ -11,3 +12,4 @@ function generateError(message, code) {
 }
 var result = generateError('errrrr', 500);
 console.log(result);
+//# sourceMappingURL=neverUnkown.js.map
